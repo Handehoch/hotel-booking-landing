@@ -1,0 +1,292 @@
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerBold.woff") format("woff"),
+  url("../fonts/MullerLight.woff") format("woff"),
+  url("../fonts/MullerMedium.woff") format("woff"),
+  url("../fonts/MullerRegular.woff") format("woff"),
+  }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+  font-family: "Muller", Arial, Helvetica, sans-serif;
+}
+
+/* glob */
+.flex {
+  display: flex;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.more-background {
+  background-image: url("../img/show-more.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 15px;
+}
+
+/* hedaer */
+.header {
+  margin-bottom: 70px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container {
+  padding: 0;
+  padding-top: 30px;
+}
+
+.header-logo {
+  margin-right: 40px;
+}
+
+.header-up {
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-contact {
+  margin-right: auto;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-add {
+  margin-left: auto;
+}
+
+.navbar-add-button:not(:last-child) {
+  margin: 0;
+  margin-right: 40px;
+}
+
+/* special */
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.offers-list {
+  flex-wrap: wrap;
+}
+
+.offers-list-item {
+  width: 573px;
+  outline: 2px solid coral;
+  border-radius: 16px;
+}
+
+.offers-list-item:not(:last-child) {
+  margin: 0;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.offer {
+  padding: 0;
+  padding: 40px 108px 40px 45px;
+  flex-grow: 1;
+}
+
+.big-offer {
+  flex-grow: 2;
+}
+
+.offer-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.offer-price {
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.special {
+  margin-bottom: 70px;
+}
+
+/* about-us */
+.about-us {
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+.about-us-description {
+  margin: 0;
+}
+
+/* services */
+.services-list {
+  flex-wrap: wrap;
+}
+
+.services-item {
+  width: 573px;
+}
+
+.services-item {
+  margin: 0;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.services-item:nth-child(2n) {
+  margin: 0;
+}
+
+.service-preview {
+  flex-direction: column;
+  outline: 2px solid coral;
+  border-radius: 16px;
+}
+
+.services-list-item-avatar {
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.service-preview-description {
+  padding: 0;
+  padding-left: 45px;
+  padding-right: 126px;
+  padding-bottom: 30px;
+}
+
+.service-item-title {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.service-item-description {
+  margin: 0;
+}
+
+.services {
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+/* advantages */
+.advantages-list {
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  margin: 0;
+  width: 276px;
+  max-height: 248px;
+  outline: 2px solid coral;
+  border-radius: 16px;
+  padding: 0;
+  padding: 40px 42px 32px 45px;
+}
+
+.advantages-item:not(:last-child) {
+  margin-right: 22px;
+  margin-bottom: 22px;
+}
+
+/* placemants */
+.placements-list {
+  flex-wrap: wrap;
+}
+
+.placements-item {
+  height: 440px;
+  max-height: 440px;
+  width: 374px;
+  max-width: 374px;
+  outline: 2px solid coral;
+  border-radius: 16px;
+}
+
+.placements-item:not(:last-child) {
+  margin: 0;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.place-avatar {
+  margin: 0;
+  margin-bottom: 32px;
+
+}
+
+.place-description {
+  padding: 0;
+  padding-bottom: 45px;
+  padding-left: 45px;
+  max-height: 440px;
+}
+
+.place-price {
+  display: inline-block;
+  margin: 0;
+  margin-right: 52px;
+  margin-bottom: 16px;
+}
+
+.rating {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  padding-right: 45px;
+}
+
+.place-name {
+  display: block;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.place-location {
+  display: block;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.placements-item:last-child {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.last-place {
+  color: white;
+}
+
+.more-places-container {
+  background-image: url('../img/place-9.jpg');
+  background-repeat: no-repeat;
+}
