@@ -100,6 +100,10 @@ body {
   flex-wrap: wrap;
 }
 
+.special-left {
+  flex-direction: column;
+}
+
 .offers-list-item {
   width: 573px;
   outline: 2px solid coral;
@@ -108,18 +112,18 @@ body {
 
 .offers-list-item:not(:last-child) {
   margin: 0;
-  margin-right: 24px;
   margin-bottom: 24px;
+  margin-right: 24px;
+  flex-grow: 1;
+}
+
+.offers-list-item .big-offer {
+  flex-grow: 2;
 }
 
 .offer {
   padding: 0;
   padding: 40px 108px 40px 45px;
-  flex-grow: 1;
-}
-
-.big-offer {
-  flex-grow: 2;
 }
 
 .offer-title {
