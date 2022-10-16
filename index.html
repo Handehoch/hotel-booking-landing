@@ -23,22 +23,22 @@
           <nav class="header-menu flex">
             <ul class="list-reset header-list flex">
               <li class="header-list-item">
-                <a href="#" class="menu-link">О нас</a>
+                <a href="#about-us" class="menu-link">О нас</a>
               </li>
               <li class="header-list-item">
-                <a href="#" class="menu-link">Услуги</a>
+                <a href="#services" class="menu-link">Услуги</a>
               </li>
               <li class="header-list-item">
-                <a href="#" class="menu-link">Преимущества</a>
+                <a href="#advantages" class="menu-link">Преимущества</a>
               </li>
               <li class="header-list-item">
-                <a href="#" class="menu-link">Размещение</a>
+                <a href="#placements" class="menu-link">Размещение</a>
               </li>
               <li class="header-list-item">
-                <a href="#" class="menu-link">Блог</a>
+                <a href="#blog" class="menu-link">Блог</a>
               </li>
               <li class="header-list-item">
-                <a href="#" class="menu-link">Контакты</a>
+                <a href="#contacts" class="menu-link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -378,7 +378,7 @@
         </ul>
       </div>
     </section>
-    <section class="tours section-offset">
+    <section id="blog" class="tours section-offset">
       <div class="container form-container">
         <h2 class="section-title">Хочу тур</h2>
         <form class="form flex" action="https://jsonplaceholder.typicode.com/posts" method="post">
@@ -418,15 +418,92 @@
         </form>
       </div>
     </section>
-    <section class="contacts section-offset">
+    <section id="contacts" class="contacts section-offset">
       <div class="container">
         <h2 class="section-title section-title-offset">Контакты</h2>
+        <div class="content flex">
+          <div class="content-left">
+            <ul class="contacts-list list-reset flex">
+              <li class="contacts-item flex">
+                <h3 class="contacts-title contacts-title-first">Адрес</h3>
+                <p class="contacts-description">
+                  Москва, улица Юности, дом 5 строение 4, офис 2
+                </p>
+              </li>
+              <li class="contacts-item flex">
+                <h3 class="contacts-title contacts-title-second">Телефоны</h3>
+                <address>
+                  <a href="tel:+74995356434" class="contacts-phone">+7 499 535-64-34</a>
+                  <a href="tel:+74950050544" class="contacts-phone">+7 495 005-05-44</a>
+                </address>
+              </li>
+              <li class="contacts-item flex">
+                <h3 class="contacts-title contacts-title-third">Email</h3>
+                <div class="email-info">
+                  <address class="contacts-email">
+                    <a href="mailto:lg.oona@mail.ru" class="email-address">lg.oona@mail.ru</a>
+                    <p class="email-description">по вопросам бронирования</p>
+                  </address>
+                  <address class="contacts-email">
+                    <a href="mailto:hotels.ln@mail.ru" class="email-address">hotels.ln@mail.ru</a>
+                    <p class="email-description">по вопросам сотрудничества</p>
+                  </address>
+                </div>
+              </li>
+              <li class="contacts-item flex">
+                <h3 class="contacts-title contacts-title-fourth">График</h3>
+                <p class="contacts-description">Понедельник-пятница, с 10:00 до 19:00</p>
+              </li>
+            </ul>
+            <a href="" class="button contacts-button">Построить маршрут</a>
+          </div>
+          <div class="content-right">
+            <img src="./img/lagoona-hotel.jpg" alt="Lagoona hotel" class="content-image">
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-
+  <footer class="footer section-offset">
+    <div class="container footer-container flex">
+      <div class="footer-info">
+        <p class="footer-text">
+          © 2012–2020 Управляющая компания Объединённой сети «Лагуна Хотелс»
+        </p>
+        <p class="footer-text">
+          Представленная на сайте информация носит справочный характер и не является публичной офертой
+        </p>
+        <a class="more-button footer-more-button">
+          Пользовательское соглашение
+        </a>
+      </div>
+      <div class="footer-contacts">
+        <address class="footer-address">
+          <p class="footer-text footer-text-address">
+            11710, улица Юности, дом 5 строение 4, офис 2
+          </p>
+          <a href="tel:+74995356434" class="footer-phone footer-text">+7 499 535-64-34</a>
+          <a href="tel:+74950050544" class="footer-phone footer-text">+7 495 005-05-44</a>
+          <a href="mailto:lg.oona@mail.ru" class="footer-mail footer-text">lg.oona@mail.ru</a>
+          <a href="mailto:hotels.ln@mail.ru" class="footer-mail footer-text">hotels.ln@mail.ru</a>
+        </address>
+      </div>
+      <div class="footer-image">
+        <img src="./img/lagoona-sun.svg" alt="Lagoona sun logo" class="footer-img">
+      </div>
+      <ul class="list-reset socials-list flex">
+        <li class="socials-item">
+          <a href="#" class="footer-icon footer-icon-owl"></a>
+        </li>
+        <li class="socials-item">
+          <a href="#" class="footer-icon footer-icon-ok"></a>
+        </li>
+        <li class="socials-item">
+          <a href="#" class="footer-icon footer-icon-vk"></a>
+        </li>
+      </ul>
+    </div>
   </footer>
 </body>
 </html>
