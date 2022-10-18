@@ -709,10 +709,10 @@ body {
   color: #CC9933;
 }
 
-.footer-img {
-  position: relative;
-  top: 63px;
-  right: 123px;
+.footer-background {
+  background-image: url('../img/lagoona-sun.svg');
+  background-repeat: no-repeat;
+  background-position: 80% bottom;
 }
 
 .socials-list {
@@ -743,4 +743,8 @@ body {
 
 .footer-icon-vk {
   background-image: url('../img/vk.svg');
+}
+
+.footer-offset {
+  margin-bottom: 35px;
 }
